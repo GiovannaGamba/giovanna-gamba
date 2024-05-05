@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AGP.MultiSearch.API", "AGP.MultiSearch.API\AGP.MultiSearch.API.csproj", "{BD4B0C1C-3F2D-4CDF-8077-8662F8E66F04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD4B0C1C-3F2D-4CDF-8077-8662F8E66F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4B0C1C-3F2D-4CDF-8077-8662F8E66F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4B0C1C-3F2D-4CDF-8077-8662F8E66F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4B0C1C-3F2D-4CDF-8077-8662F8E66F04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8533FAA9-50EA-4E09-92B8-0902B96709D4}
+	EndGlobalSection
+EndGlobal
