@@ -23,7 +23,7 @@ public class MultiSearchDbContext
 
     private List<Equipment> EquipamentsInitializer()
     {
-        string path = @"../../../../giovanna-gamba/data";
+        string path = @"../../../../../giovanna-gamba/data";
         string jsonFile = Directory.GetFiles(path, "equipments.json").Single();
 
         string jsonString = File.ReadAllText(jsonFile, Encoding.GetEncoding("ISO-8859-1"));
@@ -34,7 +34,7 @@ public class MultiSearchDbContext
 
     private List<Material> MaterialsInitializer()
     {
-        string path = @"../../../../giovanna-gamba/data";
+        string path = @"../../../../../giovanna-gamba/data";
         string jsonFile = Directory.GetFiles(path, "materials.json").Single();
 
         string jsonString = File.ReadAllText(jsonFile, Encoding.GetEncoding("ISO-8859-1"));
@@ -46,7 +46,7 @@ public class MultiSearchDbContext
 
     private List<PurchaseOrder> PurchaseOrdersInitializer()
     {
-        string path = @"../../../../giovanna-gamba/data";
+        string path = @"../../../../../giovanna-gamba/data";
         string jsonFile = Directory.GetFiles(path, "purchase_orders.json").Single();
 
         string jsonString = File.ReadAllText(jsonFile, Encoding.GetEncoding("ISO-8859-1"));
@@ -58,7 +58,7 @@ public class MultiSearchDbContext
 
     private List<SaleOrder> SaleOrdersInitializer()
     {
-        string path = @"../../../../giovanna-gamba/data";
+        string path = @"../../../../../giovanna-gamba/data";
         string jsonFile = Directory.GetFiles(path, "sales_orders.json").Single();
 
         string jsonString = File.ReadAllText(jsonFile, Encoding.GetEncoding("ISO-8859-1"));
@@ -70,7 +70,7 @@ public class MultiSearchDbContext
 
     private List<WorkForce> WorkForcesInitializer()
     {
-        string path = @"../../../../giovanna-gamba/data";
+        string path = @"../../../../../giovanna-gamba/data";
         string jsonFile = Directory.GetFiles(path, "workforce.json").Single();
 
         string jsonString = File.ReadAllText(jsonFile, Encoding.GetEncoding("ISO-8859-1"));
