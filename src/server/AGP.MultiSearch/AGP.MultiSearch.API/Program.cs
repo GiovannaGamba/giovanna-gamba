@@ -1,4 +1,5 @@
 using AGP.MultiSearch.API.Context;
+using AGP.MultiSearch.API.Services;
 
 internal class Program
 {
@@ -7,6 +8,7 @@ internal class Program
         var builder = WebApplication.CreateBuilder(args);
 
         builder.Services.AddScoped<MultiSearchDbContext, MultiSearchDbContext>();
+        builder.Services.AddScoped<IMainService, MainService>();
 
         builder.Services.AddControllers();
         builder.Services.AddEndpointsApiExplorer();
