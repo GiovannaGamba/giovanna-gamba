@@ -4,6 +4,12 @@
   justify-content: center;
 }
 
+@media (max-width: 505px) {
+  .containerBox {
+    align-items: center;
+  }
+}
+
 .boxHeader {
   display: flex;
   background-color: #fff;
@@ -17,6 +23,12 @@
   border-bottom-right-radius: 0px !important;
 }
 
+@media (max-width: 505px) {
+  .boxHeader {
+    width: 305px;
+  }
+}
+
 .boxBody {
   display: flex;
   background-color: #fff;
@@ -27,6 +39,13 @@
   justify-content: space-between;
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
+}
+
+@media (max-width: 505px) {
+  .boxBody {
+    width: 280px;
+    align-items: center;
+  }
 }
 
 .boxBody ul {
@@ -63,12 +82,27 @@
   justify-content: flex-start;
 }
 
+@media (max-width: 505px) {
+  .boxBody ul li,
+  .salesOrderID,
+  .materialName,
+  .quantity {
+    font-size: 12px !important;
+  }
+}
+
 .boxTitle {
   font-size: 16px;
   font-weight: 700;
   color: #52525b;
   margin-left: 14px;
   margin-top: 14px;
+}
+
+@media (max-width: 505px) {
+  .boxTitle {
+    width: 260px;
+  }
 }
 
 .boxCount {
