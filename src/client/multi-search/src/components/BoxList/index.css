@@ -1,0 +1,86 @@
+.containerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.boxHeader {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  height: 30px;
+  padding: 2px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.boxBody {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  width: 444px;
+  padding: 16px 14px 16px 14px;
+  justify-content: space-between;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+.boxBody ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.boxBody ul li {
+  display: grid;
+  grid-template-columns: 1fr 2.2fr 1fr;
+  grid-gap: 20px;
+}
+
+.boxBody ul li .salesOrderID {
+  color: red;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.boxBody ul li .materialName {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.boxBody ul li .quantity {
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 14px;
+  flex-grow: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.boxTitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: #52525b;
+  margin-left: 14px;
+  margin-top: 14px;
+}
+
+.boxCount {
+  font-size: 12px;
+  font-weight: 400;
+  color: #9ca3af;
+  margin-right: 14px;
+}
+
+.boxCountItem {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9ca3af;
+  text-align: center;
+}
